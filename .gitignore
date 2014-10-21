@@ -1,0 +1,10 @@
+*.swp
+deb_src
+log4shib-1.0.8
+opensaml-2.5.3
+shibboleth-sp-2.5.3
+shibboleth_2.5.3-3switchaai1_amd64.deb
+xerces-c-3.1.1
+xerces-c-tools-3.1.1
+xml-security-c-1.7.2
+xmltooling-1.5.3
