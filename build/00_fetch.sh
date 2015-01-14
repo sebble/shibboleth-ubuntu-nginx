@@ -1,4 +1,6 @@
 #!/bin/bash
+
+mkdir tmp
 cd tmp
 
 wget http://shibboleth.net/downloads/log4shib/latest/log4shib-1.0.8.tar.gz && tar xzf log4shib-1.0.8.tar.gz
