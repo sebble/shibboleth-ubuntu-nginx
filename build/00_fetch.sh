@@ -2,7 +2,7 @@
 
 set -e
 
-mkdir tmp
+mkdir -p tmp
 cd tmp
 
 wget http://shibboleth.net/downloads/log4shib/1.0.9/log4shib-1.0.9.tar.gz && tar xzf log4shib-1.0.9.tar.gz
