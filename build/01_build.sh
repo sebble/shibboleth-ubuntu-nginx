@@ -11,7 +11,7 @@ set -e
 # xerces-c-tools-3.1.1
 #sudo apt-get install fastcgi-devel
 sudo apt-get update
-sudo apt-get -y install libboost-dev libcurl4-openssl-dev libfcgi-dev
+sudo apt-get -y install libboost-dev libcurl4-openssl-dev libfcgi-dev file
 sudo mkdir -p /opt/shibboleth-sp
 sudo chmod 777 /opt/shibboleth-sp
 
