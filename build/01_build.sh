@@ -16,7 +16,7 @@ sudo mkdir -p /opt/shibboleth-sp
 sudo chmod 777 /opt/shibboleth-sp
 
 cd tmp/log4shib-1.0.9 && ./configure --disable-static --disable-doxygen --prefix=/opt/shibboleth-sp && make && make install && cd ../.. && \
-cd tmp/xerces-c-3.1.2 && ./configure --prefix=/opt/shibboleth-sp --disable-netaccessor-libcurl && make && make install && cd ../.. && \
+cd tmp/xerces-c-3.1.3 && ./configure --prefix=/opt/shibboleth-sp --disable-netaccessor-libcurl && make && make install && cd ../.. && \
 cd tmp/xml-security-c-1.7.3 && ./configure --without-xalan --with-xerces=/opt/shibboleth-sp --disable-static --prefix=/opt/shibboleth-sp && make && make install && cd ../.. && \
 cd tmp/xmltooling-1.5.5 && ./configure --with-log4shib=/opt/shibboleth-sp --prefix=/opt/shibboleth-sp -C && make && make install && cd ../.. && \
 cd tmp/opensaml-2.5.5 && ./configure --with-log4shib=/opt/shibboleth-sp --prefix=/opt/shibboleth-sp -C && make && make install && cd ../.. && \
